@@ -1,0 +1,553 @@
+/* .................................... Start Default Values ................................. */
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: clamp(20px, 3vw, 45px);
+    margin-bottom: 40px;
+}
+
+h6, h5 {
+    color: rgb(210, 9, 60);
+    margin: 0 0 12px;
+}
+
+p {
+    line-height: 25px;
+    font-weight: 500;
+}
+
+a {
+    font-weight: 700;
+    padding: 20px 35px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.achievements-text p, .about-inner-section p {
+    font-size: 13px;
+}
+
+.banner-text p, .footer-text p, .footer-heading h3, .banner-text h1, .text h1 {
+    color: white;
+}
+
+.feature-btn a, .footer-top-btn a {
+    font-weight: 600;
+    padding: 15px 25px;
+
+}
+
+/* .................................... End Default Values ................................. */
+
+
+/* .................................... Start Of Header ................................. */
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(/images/icons8-hamburger-menu-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.nav-link {
+    color: #00306E;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: rgb(210, 9, 60);
+}
+
+.navbar-nav .nav-link.active {
+    color: #3270FC;
+}
+
+/* .................................... End Of Header ................................. */
+
+
+/* .................................... Start Of Banner ................................. */
+.banner {
+    background-size: cover;
+    background-image: url(/images/echooling-banner.jpg);
+}
+
+.banner .row {
+    padding-top: 90px;
+}
+
+.banner-btn a {
+    color: #0F1216;
+    background-color: white;
+}
+
+.banner-btn a:hover {
+    background-color: #3270FC;
+    color: white;
+}
+
+.fa-play {
+    font-size: 20px;
+    color: #3270FC;
+    text-align: center;
+    line-height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    background: white;
+}
+
+.banner-btn {
+    margin-top: 50px;
+}
+
+.banner-btn .fa-btn {
+    margin-left: 30px;
+    padding: 0px;
+}
+
+.fa-play:hover {
+    background-color: #3270FC;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+@media (max-width: 524px) {
+    .banner-text h1{
+        font-size: 30px;
+    }
+}
+
+/* .................................... End Of Banner ................................. */
+
+/* .................................... Start Of Service Section ................................. */
+
+.services-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-title h1 {
+    margin-bottom: 4rem;
+}
+
+.inner-section {
+    height: 100%;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.services-card-img {
+    margin-bottom: 15px;
+}
+
+.services-card-text h3 {
+    font-size: 18px;
+}
+
+.services-card-text {
+    margin-bottom: 100px;
+}
+
+.services-card-btn a {
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    bottom: 30px;
+}
+
+.services-card-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-arrow-right {
+    padding-left: 10px;
+}
+
+.services-card-btn a:hover {
+    color: #3270FC;
+}
+
+.main-services {
+    background-color: #80808017;
+}
+
+@media (max-width: 337px) {
+    .banner-btn .fa-btn {
+        display: none;
+    }
+}
+
+/* .................................... End Of Services Section ................................. */
+
+/* ....................................Start Of About Section .................................  */
+
+
+.about-inner-section img {
+    width: 100%;
+}
+
+.about-section {
+    padding: 100px 0px;
+}
+
+.about-inner-section {
+    padding: 20px 30px;
+}
+
+.about-inner-section h1 {
+    margin: 0px;
+}
+
+@media (max-width: 376px) {
+    .about-inner-section h1 {
+        font-size: 30px;
+    }
+}
+
+.about-inner-section p {
+    margin: 1.2rem 0rem;
+}
+
+.mark-main {
+    display: flex;
+    align-items: baseline;
+}
+
+.fa-check {
+    margin: 5px 15px 5px 0px;
+    color: #3270FC;
+    border-radius: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ffc0cb6b;
+}
+
+.about-btn {
+
+    margin: 2.5rem 0rem;
+}
+
+.about-btn a {
+    color: white;
+    background: #3270FC;
+}
+
+.about-btn a:hover {
+    background-color: rgb(210, 9, 60);
+}
+
+/* .................................... End Of About Section .................................  */
+
+/* .................................... Start Of Feature Section .................................  */
+@media (max-width: 768px) {
+    .feature-text {
+        box-shadow: 0px 0px 40px rgba(128, 128, 128, 0.277);
+    }
+
+    .feature-inner-section {
+        height: auto !important;
+    }
+
+    .feature-inner-section {
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
+
+    .feature-box {
+        padding: 0px !important;
+    }
+}
+
+.feature-main-section {
+    background-color: #80808017;
+}
+
+.feature {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.feature-box {
+    padding: 20px 10px;
+}
+
+.feature-inner-section {
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature-text {
+    text-align: left;
+}
+
+.feature-text h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature-text p {
+    margin: 1.5rem 0px 0px 0px;
+}
+
+.fa-wpforms {
+    padding-right: 10px;
+    color: rgb(210, 9, 60);
+}
+
+.feature-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 0px 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.305);
+}
+
+.feature h5 {
+    color: rgb(210, 9, 60);
+    text-align: center;
+    font-size: 16px;
+}
+
+.feature-btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.feature-btn a {
+    color: #3270FC;
+    border: 2px solid #3270FC;
+}
+
+.feature-btn a:hover {
+    background-color: rgb(210, 9, 60);
+    color: white;
+    border: 2px solid rgb(210, 9, 60);
+}
+
+/* .................................... End Of Feature Section .................................  */
+
+/* .................................... Start Of achievements Section .................................  */
+
+.achievements {
+    padding: 20px 0px 100px 0px;
+}
+
+.achievements-section {
+    border-top: 1px solid rgba(128, 128, 128, 0.192);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+.achievements-box {
+    border-right: 1px solid rgba(128, 128, 128, 0.192);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.border-none {
+    border-right: none;
+}
+
+.inner-achievements-box img {
+    width: 30px;
+    height: 30px;
+}
+
+.achievements-icon {
+    margin-right: 15px;
+}
+
+.achievements-text h1 {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.achievements-text p {
+    text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+    .achievements-box {
+        border-right: none !important;
+        border-bottom: 1px solid #cccccc83 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .achievements-box {
+        border: 1px rgba(128, 128, 128, 0.249) solid !important;
+    }
+}
+
+/* .................................... End Of achievements Section .................................  */
+
+/* .................................... Start Of Footer-Top .................................  */
+
+.footer-top-section {
+    padding: 80px 0px;
+    background-image: url(/images/hero-bg.jpg);
+    background-size: cover;
+}
+
+.text h6 {
+    font-weight: 600;
+    color: white;
+
+}
+
+.footer-top-btn a {
+    color: white;
+    border: 2px solid white;
+}
+
+.footer-top-btn a:hover {
+    background-color: #3270FC;
+    border: 2px solid #3270FC;
+}
+
+/* .................................... End Of Footer-Top .................................  */
+
+/* .................................... start Of Footer-Main .................................  */
+
+.subscription {
+    position: relative;
+}
+
+.footer-main {
+    background-color: #0F1216;
+}
+
+.footer, .footer a {
+    color: grey;
+}
+
+.footer-sub-menu, .footer-sub-menu li a, .footer-icons a {
+    padding: 0px;
+}
+
+.footer {
+    padding: 60px 0px;
+}
+
+.footer-text a {
+    font-weight: 500;
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+.footer-text p {
+    font-size: 15px;
+    margin: 0px;
+    text-align: justify;
+    padding: 20px 0px 10px 0px;
+}
+
+.footer-heading h3 {
+    font-size: 20px;
+}
+
+.footer-logo img {
+    width: auto;
+}
+
+.footer-sub-menu li {
+    padding: 5px 0px;
+    list-style: none;
+}
+
+.footer-sub-menu li a {
+    font-weight: 500;
+}
+
+.sub-email {
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.subscription-form input {
+    border: none;
+}
+
+.submit-button {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px 9px;
+    background-color: #3270FC;
+
+}
+
+.sub-form a:hover {
+    background-color: rgb(210, 9, 60);
+}
+
+.sub-form p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.bottom-footer {
+    border-top: 1px solid #3270FC;
+    padding: 25px 0px;
+    ;
+}
+
+.copyright-text h6 {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.footer-icons .fa-brands {
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #3270FC;
+    color: black;
+    width: 30px;
+}
+
+.footer-icons a {
+    margin-left: 10px;
+}
+
+.footer-icons .fa-brands:hover, .copyright-text h6, .submit-button {
+    color: white;
+}
+
+.footer-icons .fa-brands:hover {
+    background: rgb(210, 9, 60);
+}
+
+/* .................................... End Of Footer-Main .................................  */
